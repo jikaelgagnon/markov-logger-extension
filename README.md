@@ -8,7 +8,7 @@
   <em><b>Markov Logger</b> is a <a href="https://developer.chrome.com/docs/extensions">Chrome Extension</a> built for researchers to track internet usage during experiments. It logs DOM events and navigations on <em>any website</em>, including single-page applications. Users can easily setup a <a href="https://firebase.google.com/docs/firestore"><b>Firebase</b></a> database with OAuth2 verification for fast installation</em>
 </p>
 
-> [!NOTE] 
+> [!WARNING] 
 > The code for this project is to be published with a research paper. Since the paper has not yet been published, the source code is still private. After publication, the code will be publicized. 
 
 ## Table Of Contents
@@ -30,8 +30,8 @@
 # Features
 - Works on *any* website :globe_with_meridians:
 - Seamless integration with Firebase :fire:
-- User authentication via OAuth2 ":lock:
-- Log errors to Sentry during deployment :beetle:
+- User authentication via OAuth2 :lock:
+- Log and track errors to Sentry during deployment :beetle:
 
 # About
 ## Purpose
@@ -114,6 +114,7 @@ Once the collection period is complete, researchers can piece together the resul
 # Setup
 ## Setup Instructions - Researchers
 ### Creating a Firebase project
+<details><summary><b>Show instructions</b></summary>
 Before collecting data, you will first need to create a Firebase project. 
 1. [Firebase console](https://console.firebase.google.com/) and create a new project.
 2. Choose a project name (anything works)
@@ -173,6 +174,7 @@ Make sure to copy the `firebaseConfig` object or remember how to navigate to thi
 9. Click "Continue to console"
 
 ### Set up your development environment
+<details><summary><b>Show instructions</b></summary>
 
 1. Clone this repo and install npm dependencies:
 
@@ -200,10 +202,14 @@ Navigate to the `src/database/firebaseConfig.json` and paste your `firebaseConfi
 
 ### Registering the extension and integrating OAuth2
 
+<details><summary><b>Show instructions</b></summary>
+
 Please follow [this guide from Google](https://developer.chrome.com/docs/extensions/how-to/integrate/oauth).
 
 
 ### Deploying
+
+<details><summary><b>Show instructions</b></summary>
 
 You're now ready to deploy! Simply build the extension via
 
