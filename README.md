@@ -1,7 +1,7 @@
 
-<h1>
-  <img src="./img/logo.png" alt="Logo" height="120" style="vertical-align: middle;" />
-  Markov Logger
+<h1 align="center">
+  <br>
+  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="./img/logo.png" alt="Markov Logger" width="200"></a>
 </h1>
 
 <p align="center">
@@ -12,7 +12,6 @@
 > The code for this project is to be published with a research paper. Since the paper has not yet been published, the source code is still private. After publication, the code will be publicized. 
 
 ## Table Of Contents
-- [Features](#features)
 - [About](#about)
   - [Purpose](#purpose)
   - [Example](#example)
@@ -24,14 +23,7 @@
     - [Creating a firebase project](#creating-a-firebase-project)
     - [Setting up OAuth2](#setting-up-oauth2)
     - [Registering the extension](#registering-the-extension)
-    - [Integrating with sentry](#integrating-with-sentry)
     - [Deploying](#deploying)
-
-# Features
-- Works on *any* website :globe_with_meridians:
-- Seamless integration with Firebase :fire:
-- User authentication via OAuth2 :lock:
-- Log and track errors to Sentry during deployment :beetle:
 
 # About
 ## Purpose
