@@ -5,6 +5,7 @@
   <p align="center">
   <em><b>Markov Logger</b> is a <a href="https://developer.chrome.com/docs/extensions">Chrome Extension</a> built for researchers to track internet usage during experiments. It logs DOM events and navigations on <em>any website</em>, including single-page applications. Users can easily setup a <a href="https://firebase.google.com/docs/firestore"><b>Firebase</b></a> database with OAuth2 verification for fast installation</em>
 </p>
+
 > [!WARNING] 
 > The code for this project is to be published with a research paper. Since the paper has not yet been published, the source code is still private. After publication, the code will be publicized. 
 
@@ -18,8 +19,7 @@
 - [Setup](#setup)
   - [For researchers](#setup-instructions---researchers)
     - [Creating a firebase project](#creating-a-firebase-project)
-    - [Setting up OAuth2](#setting-up-oauth2)
-    - [Registering the extension](#registering-the-extension)
+    - [Registering the extension and integrating OAuth2](#registering-the-extension-and-integrating-oauth2)
     - [Deploying](#deploying)
 
 # About
