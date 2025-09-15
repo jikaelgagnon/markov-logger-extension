@@ -1,6 +1,6 @@
 
 <h1>
-  <img src="./img/logo.png" alt="Logo" height="150" style="vertical-align: middle;" />
+  <img src="./img/logo.png" alt="Logo" height="120" style="vertical-align: middle;" />
   Markov Logger
 </h1>
 
@@ -115,6 +115,7 @@ Once the collection period is complete, researchers can piece together the resul
 ## Setup Instructions - Researchers
 ### Creating a Firebase project
 <details><summary><b>Show instructions</b></summary>
+
 Before collecting data, you will first need to create a Firebase project. 
 1. [Firebase console](https://console.firebase.google.com/) and create a new project.
 2. Choose a project name (anything works)
@@ -173,6 +174,8 @@ Make sure to copy the `firebaseConfig` object or remember how to navigate to thi
 
 9. Click "Continue to console"
 
+</details>
+
 ### Set up your development environment
 <details><summary><b>Show instructions</b></summary>
 
@@ -199,6 +202,7 @@ Navigate to the `src/database/firebaseConfig.json` and paste your `firebaseConfi
 }
 ```
 
+</details>
 
 ### Registering the extension and integrating OAuth2
 
@@ -206,15 +210,18 @@ Navigate to the `src/database/firebaseConfig.json` and paste your `firebaseConfi
 
 Please follow [this guide from Google](https://developer.chrome.com/docs/extensions/how-to/integrate/oauth).
 
+</details>
 
 ### Deploying
 
-<details><summary><b>Show instructions</b></summary>
+<details>
+<summary><b>Show instructions</b></summary>
 
 You're now ready to deploy! Simply build the extension via
 
-```
-npm run build
-```
+<pre><code>npm run build
+</code></pre>
 
 then load the unpacked extension into Chrome!
+
+</details>
